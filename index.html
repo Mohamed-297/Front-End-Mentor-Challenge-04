@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">  
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+<div class="container">
+  
+  <header>
+
+    <div class="labels">
+    
+        <label class="day" for="days">
+          <p>Day</p>    
+          <input class="days" type="number"    placeholder="DD">
+          <span class="errorD">Must be a valid day </span> 
+        </label>
+        
+      
+          
+          <label class="month" for="months">
+          <p>Month</p>
+          <input class="months" type="number" placeholder="MM"> 
+          <span class="errorM">Must be a valid month</span> 
+        </label>
+        
+      
+      
+        <label class="year" for="years">
+          <p>Year</p>
+          <input class="years" type="number"   placeholder="YYYY">
+          <span class="errorY">Must be in the past</span> 
+        </label>
+      
+    </div>      
+  </header>
+  <main>
+    <div class="isolation-container">
+      <div class="isolation">  
+        <div class="logo"><img src="assets/images/icon-arrow.svg" alt=""></div>
+      </div>
+    </div>
+
+    <div class="age">
+      <p class="years"><span>--</span>years</p>
+      <p class="months"><span>--</span>months</p>
+      <p class="days"><span>--</span>days</p>
+    </div>
+  </main>
+</div>
+  
+<script src="index.js"></script>
+</body>
+</html>

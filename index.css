@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins, sans-serif;
+
+}
+body{
+    background-color: hsl(0, 0%, 94%);
+}
+.container{    
+    width:800px;
+    margin: 94px auto;
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px 30px 200px;
+}
+@media screen and (max-width:375px) {
+    .container{
+        /* display: flex; */
+        width: fit-content;
+      
+    }    
+} 
+.container header{
+    padding: 20px 50px 0px;
+}
+@media screen and (max-width:375px) {
+    .container header{
+        padding: 20px 30px 0px;
+    }
+}
+.labels{
+    display: flex;
+    margin-bottom: 10px;
+}
+@media screen and (max-width:375px) {
+    .labels{
+        
+    }
+}
+
+.labels label{
+    display: flex;
+    flex-direction: column;
+}
+.labels label.years{
+}
+.labels p{
+    font-variant-caps: all-petite-caps;
+    color: hsl(0, 1%, 44%);
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+input{
+    width: 150px;
+    height: 70px;
+    padding: 0 10px 0 20px;
+    border-radius: 8px;
+    font-size: 32px;
+    border: 1px solid #dbdbdb;
+    margin-right: 39px;
+    outline: none;
+}
+@media screen and (max-width:375px) {
+    input{
+        width: 90%;
+        height: auto;
+        padding: 0 0px 0 10px;
+        font-size: 20px;
+        font-weight: 800;    }
+    }
+    .isolation-container{  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 50px 53px;
+        position: relative;
+    }
+@media screen and (max-width:375px) {
+    .isolation-container{ 
+        margin: 50px 0px;
+        position: relative;
+    }
+}
+.isolation{
+    border: 1px solid hsl(0, 0%, 86%);
+    
+}
+@media screen and (max-width:375px) {
+    .isolation{
+        margin: 0 20px;
+    }}
+.logo{
+    position: absolute;
+    right: 0px;
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    padding: 20px;
+    top: -43px;
+    cursor: pointer;
+}
+@media screen and (max-width:375px) {
+    .logo{
+        right: 0;
+        top: 0px;
+        transform: translate(-50%, -50%);
+        margin: 0 81px;
+    }
+    
+}
+main .age{
+    padding: 50px;
+}
+@media screen and (max-width:375px) {
+    main .age{
+        padding: 20px;
+    }
+    }
+.age p {
+    font-size: 62px;
+    font-weight: 800;
+    font-style: italic;
+}
+@media screen and (max-width:375px) {
+    .age p {
+        font-size: 42px;
+    }
+}
+
+.age p span{
+    letter-spacing: 5px;
+    font-weight: 800;
+    font-size: 62px;
+    color: #854cff;
+    font-style: italic;
+}
+@media screen and (max-width:375px) {
+    .age p span{
+        font-size: 42px;
+    }
+}
+.labels span{
+    display: none;
+    margin-right: 32px;
+    font-size: 13px;
+    color:  hsl(0, 100%, 67%);
+}
